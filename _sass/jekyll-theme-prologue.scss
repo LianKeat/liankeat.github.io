@@ -83,7 +83,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
-		color: #666;
+		color: rgb(219, 219, 219);
 		line-height: 1.5em;
 	}
 
@@ -288,6 +288,17 @@
 		}
 	}
 
+	.wrapleft  
+	{  
+	float: left;   
+	margin: 0px 20px 50px 0px;
+	}  
+	.wrapright  
+	{  
+	float: right;   
+	margin: 0px 10px 10px 10px;
+	}  
+
 /* List */
 
 	ul {
@@ -433,7 +444,7 @@
 		color: #fff !important;
 		text-decoration: none;
 		padding: 0.75em 2.5em 0.75em 2.5em;
-		background-color: #8ebebc;
+		background-color: #659c9a;
 		border: 0;
 		cursor: pointer;
 		@include vendor('background-image', ('linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15))', 'url("images/overlay.png")'));
@@ -613,7 +624,7 @@
 	#footer {
 		margin-left: 375px;
 		text-align: center;
-		background-color: #dce3e2;
+		background-color: #1f2221;
 		padding: 3em 0 4em 0;
 		box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 		font-size: 0.8em;
@@ -699,19 +710,19 @@
 			}
 
 			&.shade-one {
-				background-color: #81918E;
+				background-color: #272727;
 			}
 
 			&.shade-two {
-				background-color: #f5fafa;
+				background-color: #1f2221;
 			}
 
 			&.shade-three {
-				background-color: #ecf1f1;
+				background-color: #272727;
 			}
 
 			&.shade-four {
-				background-color: #e8edec;
+				background-color: #1f2221;
 			}
 		}
 	}
@@ -1107,3 +1118,14 @@
 			}
 
 	}
+
+	.zoom {
+		padding: 0px;
+		transition: transform .2s; /* Animation */
+		margin: 0 auto;
+	  }
+	  
+	  .zoom:hover {
+		transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+	  }
+

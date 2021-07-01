@@ -13,3 +13,9 @@
 	.button {
 		background-image: url("images/ie/grad0-15.svg");
 	}
+
+
+/* Body */
+body {
+    background-color: rgb(0, 39, 107);
+}
