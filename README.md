@@ -6,7 +6,7 @@ Up and Running. Other Data Science projects are not deployed yet
 
 # Credits
 
-Thanks to @andrewbanchich for his many Jekyll adaptations of HTML5 UP's elegant themes, which helped and inspired me, and of course many thanks to HTML5 UP.
+Thanks to Chris Bobbe for his integration to Jekyll and to HTML5 UP.
 
 Original README from HTML5 UP:
 
