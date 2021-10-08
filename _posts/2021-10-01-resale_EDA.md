@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Analysis of HDB Resale Prices
-permalink: /resale_EDA
+title: HDB Resale Prices
+icon: fa-building-o
+permalink: /projects/resalesHDB
 ---
 
 # Visualising and Understanding the factors of HDB resale price trend.
